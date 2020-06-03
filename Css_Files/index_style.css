@@ -1,0 +1,31 @@
+.nav_bar {
+    overflow: hidden;
+    background-color: #fc9003;
+}
+.nav_bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav_bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: Arial;
+    background-image: url("../Images/back_image_1.jpg");
+    height: auto;
+    max-width: auto;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
