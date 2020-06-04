@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="..\Css_Files\index_style.css">
+    <script>
+        function message() {
+        document.getElementById('showMessage').innerHTML = "Your Order is successfully Submitted";
+    }
+    </script>
+</head>
+
+<body>
+    <h1>“Welcome to FitLife Fitness and Training Center!” </h1>
+    <h2>Please Fill up this form for registration</h2>
+    <div>
+        <form>
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" id="name" name="Name">
+            <br>
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" name="Email">
+            <br>
+            <label for="Address">
+                Address:
+            </label>
+            <textarea id="Address"></textarea>
+            <br>
+            <label>
+                Type of Membership:
+            </label>
+            <input type="radio" id="debit" name="Membership" value="debit">
+            <label for="debit">Debit</label>
+            <input type="radio" id="credit" name="Membership" value="credit">
+            <label for="credit">Credit</label>
+            <br>
+            <input type="checkbox">Mark this checkbox, if you are willing to receive email updates about
+            upcoming new promotions and latest news. </input>
+            <br>
+            
+        </form>
+        <input type="submit" value="Submit"  onclick="message();">
+            <p id="showMessage"></p>
+    </div>
+</body>
+
+</html>
